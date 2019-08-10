@@ -1,0 +1,1 @@
+# http://editorconfig.orgroot = true[*]charset = utf-8end_of_line = lfindent_style = spaceindent_size = 2insert_final_newline = truetrim_trailing_whitespace = true[*.md]trim_trailing_whitespace = false
