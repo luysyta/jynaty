@@ -1,0 +1,1 @@
+sudo: falsedist: trustylanguage: node_js# node version is specified using the .nvmrc filebefore_install:- npm install -g greenkeeper-lockfile@1before_script:- export DISPLAY=:99.0- sh -e /etc/init.d/xvfb start- greenkeeper-lockfile-updateafter_script:- greenkeeper-lockfile-uploadaddons:firefox: latestchrome: stable
